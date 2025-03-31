@@ -1,7 +1,7 @@
-name="Emmanuel"
-age=26
-topics=["automation" , "conditional scripts" , "love"]
-print(f"Hi my name is {name}, and I am {age} years old.")
-for topics in topics:
-  print(f"I want to study {topics}.")
-print(f"I want to learn a total of 3 topics") 
+study_time= int(input("How long did you study shipmate?"))
+if study_time >=5:
+  print(f"Good job shipmate!")
+elif study_time >=3:
+  print(f"this is good but how bad do you really want it?")
+else study_time <=3:
+  print(f"Go lock back in kid!")
